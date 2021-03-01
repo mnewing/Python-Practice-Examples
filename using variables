@@ -1,0 +1,13 @@
+fname = "freddie"
+lname = "bloginton caright"
+wname = fname + " " +lname
+print("full name is: " + wname)
+size = len(wname)
+print("name lenght is: " + str(size))
+
+if size <= 10:
+  print("this is a short name")
+elif size > 10 and size < 25:
+  print("medium length name")
+else:
+  print("long name")
